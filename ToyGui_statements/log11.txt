@@ -1,0 +1,75 @@
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[readFile(var_f, var_c); print( var_c ), openRFile(var_f,"test2.in")]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[readFile(var_f, var_c); print( var_c )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[print( var_c ), readFile(var_f, var_c)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[print( var_c )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[null]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+

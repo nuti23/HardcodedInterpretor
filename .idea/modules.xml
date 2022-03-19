@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ToyGui_lock/ToyGui/ToyGui.iml" filepath="$PROJECT_DIR$/ToyGui_lock/ToyGui/ToyGui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToyGui_latch/ToyGui/ToyGui (1).iml" filepath="$PROJECT_DIR$/ToyGui_latch/ToyGui/ToyGui (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToyGui_barrier/ToyGui/ToyGui (2).iml" filepath="$PROJECT_DIR$/ToyGui_barrier/ToyGui/ToyGui (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToyGui_semaphore/ToyGui/ToyGui (3).iml" filepath="$PROJECT_DIR$/ToyGui_semaphore/ToyGui/ToyGui (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToyGui_statements/ToyGui/ToyGui (4).iml" filepath="$PROJECT_DIR$/ToyGui_statements/ToyGui/ToyGui (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exam.iml" filepath="$PROJECT_DIR$/.idea/exam.iml" />
+    </modules>
+  </component>
+</project>

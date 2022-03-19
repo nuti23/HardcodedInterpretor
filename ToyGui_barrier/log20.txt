@@ -1,0 +1,629 @@
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[new( v2, 3 ); new( v3, 4 ); newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  ), new( v1, 2 )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1}
+*****ExecutionStack*****
+[new( v2, 3 ); new( v3, 4 ); newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1}
+*****ExecutionStack*****
+[new( v3, 4 ); newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  ), new( v2, 3 )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1, v2=2}
+*****ExecutionStack*****
+[new( v3, 4 ); newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1, v2=2}
+*****ExecutionStack*****
+[newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  ), new( v3, 4 )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[newBarrier( cnt, rH( v2) ); fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  ), newBarrier( cnt, rH( v2) )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )); fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  ), fork(awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ))]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )); awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[awaitBarrier( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[awaitBarrier( cnt ); print( rH( v3)  ), fork(awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  ))]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ), awaitBarrier( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[awaitBarrier( cnt ); print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[awaitBarrier( cnt ); wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v3)  ), awaitBarrier( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v1)  ), wH( v1, ( rH( v1)  * 10 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  ), awaitBarrier( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=2, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v3)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v1)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v2, ( rH( v2)  * 10 )) ; wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  ), wH( v2, ( rH( v2)  * 10 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=3, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[wH( v2, ( rH( v2)  * 10 )) ; print( rH( v2)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v2)  ), wH( v2, ( rH( v2)  * 10 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=30, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[4, 20]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[print( rH( v2)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[4, 20, 300]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[4, 20, 300]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[4, 20, 300]
+*****SymbolTable*****
+{cnt=1, v1=1, v2=2, v3=3}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=20, 2=300, 3=4}
+*****CyclicBarrierTable*****
+{1=3=[11, 1, 21]}
+------------------------------------------------------
+
+

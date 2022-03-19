@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ToyGui (3)" />
+        <module name="ToyGui (4)" />
+        <module name="ToyGui" />
+        <module name="ToyGui (1)" />
+        <module name="ToyGui (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ToyGui" target="16" />
+      <module name="ToyGui (1)" target="16" />
+      <module name="ToyGui (2)" target="16" />
+      <module name="ToyGui (3)" target="16" />
+      <module name="ToyGui (4)" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

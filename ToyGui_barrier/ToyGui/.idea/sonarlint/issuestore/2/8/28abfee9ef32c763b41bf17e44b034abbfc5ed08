@@ -1,0 +1,33 @@
+
+[	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(ðçµ“
+E
+java:S37402"/Provide the parametrized type for this generic.(™ÀÞ¾
+t
+java:S2142#"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(­Êç¨üÿÿÿÿ
+t
+java:S2142U"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(‚”À‡
+V	java:S125a"<This block of commented-out lines of code should be removed.(é€åÛùÿÿÿÿ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(µ‡ç
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(³Ë–Ë
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(Ëû‰øÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(¥·¡Ìýÿÿÿÿ
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(íý±«øÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(ù½©¹þÿÿÿÿ
+M	java:S106x"9Replace this use of System.out or System.err by a logger.(÷áù^
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(Ì¶ø·þÿÿÿÿ
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(î½Î¬üÿÿÿÿ
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(ÓÝ²Õùÿÿÿÿ
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(ð¿•Ú
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(µ‡ç
+W
+java:S11442"ARemove this unused private "conservativeGarbageCollector" method.(™ÀÞ¾
+F
+java:S1144n"0Remove this unused private "printThings" method.(ñÙ›ç
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©þÉ¥ûÿÿÿÿ
+i
+java:S2259Y"NA "NullPointerException" could be thrown; "newProgramStates" is nullable here.(‹½íÎþÿÿÿÿ

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ToyGui_lock/ToyGui/pom.xml" />
+        <option value="$PROJECT_DIR$/ToyGui_latch/ToyGui/pom.xml" />
+        <option value="$PROJECT_DIR$/ToyGui_barrier/ToyGui/pom.xml" />
+        <option value="$PROJECT_DIR$/ToyGui_semaphore/ToyGui/pom.xml" />
+        <option value="$PROJECT_DIR$/ToyGui_statements/ToyGui/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,11 @@
+
+t	java:S116"SRename this field "var_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰îÐ«øÿÿÿÿ8°æˆ‹ê/
+W
+java:S6213":Rename this variable to not match a restricted identifier.(Å›Ùõ8²æˆ‹ê/
+W
+java:S6213":Rename this variable to not match a restricted identifier.(´Ó’¬8²æˆ‹ê/
+\
+java:S6213"":Rename this variable to not match a restricted identifier.(ˆÄ‰Óýÿÿÿÿ8´æˆ‹ê/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Ó’¬8·æˆ‹ê/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ö´”8·æˆ‹ê/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö”¾œûÿÿÿÿ

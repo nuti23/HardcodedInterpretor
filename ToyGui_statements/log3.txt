@@ -1,0 +1,135 @@
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[readFile(var_f, var_c); print( var_c ); if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f), openRFile(var_f,"test.in")]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[readFile(var_f, var_c); print( var_c ); if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[print( var_c ); if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f), readFile(var_f, var_c)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[print( var_c ); if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f), print( var_c )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[null]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 );  closeRFile(var_f)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[null]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[ closeRFile(var_f), if(var_c) then readFile(var_f, var_c); print( var_c ) else print( 0 )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[null]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[ closeRFile(var_f)]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[null]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+------------------------------------------------------
+
+

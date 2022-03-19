@@ -1,0 +1,1020 @@
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{}
+*****ExecutionStack*****
+[newSemaphore( cnt, rH( v1) ) ; fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )); fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt ), new( v1, 1 )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{}
+*****SemaphoreTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1}
+*****ExecutionStack*****
+[newSemaphore( cnt, rH( v1) ) ; fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )); fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{v1=1}
+*****ExecutionStack*****
+[fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )); fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt ), newSemaphore( cnt, rH( v1) ) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )); fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt ), fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt ))]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )); acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt ), fork(acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ))]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[acquire( cnt ); print( ( rH( v1)  - 1 ) ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[acquire( cnt ); wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( rH( v1)  ); release( cnt ), wH( v1, ( rH( v1)  * 10 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=1}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt ), print( rH( v1)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[11]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 10 )) ; wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt ), wH( v1, ( rH( v1)  * 10 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=10}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[wH( v1, ( rH( v1)  * 2 )) ; print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( rH( v1)  ); release( cnt ), wH( v1, ( rH( v1)  * 2 )) ]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=100}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( rH( v1)  ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt ), print( rH( v1)  )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[21]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt ), acquire( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[print( ( rH( v1)  - 1 ) ); release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt ), print( ( rH( v1)  - 1 ) )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[release( cnt )]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[1]}
+------------------------------------------------------
+
+
+Thread number id: 1
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 11
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
+Thread number id: 21
+------------------------------------------------------
+*****OutputList*****
+[10, 200, 199]
+*****SymbolTable*****
+{cnt=1, v1=1}
+*****ExecutionStack*****
+[]
+*****FileTable*****
+{}
+*****HeapTable*****
+{1=200}
+*****SemaphoreTable*****
+{1=1=[]}
+------------------------------------------------------
+
+
